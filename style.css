@@ -129,6 +129,10 @@ header div p {
 
 /* HOW-WORKS */
 
+.how-works {
+    margin: 50px auto;
+}
+
 .how-works > h2 {
     text-align: center;
 }
@@ -138,6 +142,7 @@ header div p {
     justify-content: space-around;
     align-content: center;
     width: 80%;
+    margin: auto;
 }
 
 .how-works p {
@@ -145,7 +150,7 @@ header div p {
 }
 
 .how-works img {
-    width: 120px;
+    width: 130px;
 }
 
 .who-is, .best-route, .enjoy {
@@ -154,8 +159,44 @@ header div p {
 }
 
 .who-is {
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: auto;
 }
 
-.best-route {}
+.best-route {
+    margin: 0 5% 0 5%;
+}
+
+.enjoy {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+/* SERVICES */
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.services > div > h2 {
+    display: block;
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    width: 130px;
+    margin: auto;
+}
