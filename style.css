@@ -1,0 +1,161 @@
+* {
+    font-family: 'Asap', Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.5); 
+    font-weight: 500;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.75); 
+    font-weight: 700;      
+    text-transform: uppercase;        
+}
+
+h2, h3 {
+    color: rgba(0, 0, 0, 0.8);     
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    font-weight: 700;  
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+li {
+    list-style: none;       
+}
+
+/* NAV BAR */
+nav {
+    background-color: transparent;
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;    
+}
+
+nav div {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 230px;
+}
+
+nav div > a img {
+    width:95px;
+}
+
+nav ul li {  
+    display: inline;
+    margin: 0 16px;
+    padding: 4px 8px;
+}
+
+nav ul li a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.75);      
+}
+
+.button-nav {
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.button-nav a {
+    color: goldenrod;
+}
+
+/* HEADER */
+header {
+    background-image: url(img/bg-banner.png);
+    background-size: cover;
+    height: 560px;
+}
+
+header > div {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 200px 0;
+    text-align: center;
+}
+
+header a {
+    background-color: goldenrod;
+    color: rgb(129, 91, 48);
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s all;
+    border-radius: 5px;    
+}
+
+header a:hover {
+    background-color: black;
+    color: white;
+    transition: 1s color;
+}
+
+header div p {
+    width: 600px;
+    margin: 0 auto 40px auto;
+    color: rgba(255, 255, 255, 0.75);        
+}
+
+/* SECTION ABOUT */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 550px;
+    margin: 50px auto;
+}
+
+.about img {
+    width: 100px;
+    margin-right: 50px;
+}
+
+/* HOW-WORKS */
+
+.how-works > h2 {
+    text-align: center;
+}
+
+.how-works > div {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+}
+
+.how-works p {
+    display: inline;
+}
+
+.how-works img {
+    width: 120px;
+}
+
+.who-is, .best-route, .enjoy {
+    width: 25%;
+    text-align: center;
+}
+
+.who-is {
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.best-route {}
