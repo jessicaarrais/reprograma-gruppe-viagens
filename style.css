@@ -59,7 +59,7 @@ nav div {
 }
 
 nav div > a img {
-    width:95px;
+    width: 95px;
 }
 
 nav ul li {  
@@ -209,9 +209,10 @@ header div p {
 }
 
 .card {
+    display:block;
     background-color: #00b8e6;
     text-align: center;
-    width: 300px;
+    width: 40%;
     height: 350px;
     padding: 20px;
     border: 1px solid #00b8e6;
@@ -249,7 +250,9 @@ header div p {
     border-radius: 5px;
     position: absolute;
     bottom: 20px;
-    left: 86px;
+    left: 20%;
+    right: 20%;
+
 }
 
 /* SECTION DO-YOU-KNOW */
@@ -319,14 +322,15 @@ header div p {
     margin: 3px 0 10px 0; 
     background-color: rgb(255, 223, 143); 
     border: 1.5px solid rgb(253, 217, 125); 
-
+    box-sizing: border-box;
 }
 
 .contact-us textarea {
     resize: none;
     margin: 3px 0 10px 0;     
     background-color: rgb(255, 223, 143); 
-    border: 1.5px solid rgb(253, 217, 125);     
+    border: 1.5px solid rgb(253, 217, 125); 
+    box-sizing: border-box;            
 }
 
 .name-email {
@@ -365,6 +369,7 @@ header div p {
 
 .join-us input {
     height: 30px;
+    box-sizing:border-box; 
 }
 
 input.submit-form-join {
@@ -436,14 +441,7 @@ footer p {
     margin: 0;
 }
 
-.fb {
+.media-social {
     position: absolute;
     left: 40px;
 }
-
-.yt {
-    position: absolute;
-    right: 40px;    
-}
-
-
