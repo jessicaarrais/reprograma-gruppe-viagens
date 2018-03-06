@@ -111,73 +111,85 @@
                 <div>
                     <h2>Você sabia que...</h2>
 
-                    <p>
-                        <span>80%</span> É o que você economiza quando planeja uma viagem de antemão.
-                    </p>
-                    <p>
-                        <span>50+</span> Localidades no mundo todo que nossos consultores conhecem.
-                    </p>
-                    <p>
-                        <span>1000+</span> Brasileiros viajaram no ano de 2016.
-                    </p>
+                    <div class="info">
+                        <p>
+                            <span>80%</span> É o que você economiza quando planeja uma viagem de antemão.
+                        </p>
+                        <p>
+                            <span>50+</span> Localidades no mundo todo que nossos consultores conhecem.
+                        </p>
+                        <p>
+                            <span>1000+</span> Brasileiros viajaram no ano de 2016.
+                        </p>
+                    </div>
                 </div>
             </section>
 
             <section class="contact-us">
                 <div>
-                    <h2>Alguma dúvida?</h2>
-                    <h2>Fale com a gente!</h2>
+                    <h2>Alguma dúvida?<br>
+                        Fale com a gente!</h2>
                 </div>
 
                 <form class="contact-form" action="">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" required>
+                    <div class="name-email">
+                        <div>
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" required>
+                        </div>
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" required>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" required>
+                        </div>
+                    </div>
 
                     <label for="about">Assunto</label>
                     <input type="text" name="about" required>
 
                     <label for="message">Mensagem</label>
-                    <textarea rowa="6" cols="50" required>
+                    <textarea rows="8" cols="50" required></textarea>
 
-                    <input type="submit" value="Enviar">
+                    <input class="submit-form-contact" type="submit" value="Enviar">
                 </form>
             </section>
 
             <section class="join-us">
-                <h2>Fique ligado nas novidades do Gruppe</h2>
-
-                <form class="join-form" action="">
-                    <input type="text" placeholder="Insira seu email">
-                    <input type="submit" value="COMEÇAR AGORA">
-                </form>
+                <div>
+                    <h2>Fique ligado nas novidades do Gruppe</h2>
+                    
+                    <form class="join-form" action="">
+                        <input type="text" placeholder="Insira seu email">
+                        <input class="submit-form-join" type="submit" value="COMEÇAR AGORA">
+                    </form>
+                </div>
             </section>
         </main>
 
         <footer>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Como funciona</a></li>
-                <li><a href="#">Roteiros</a></li>
-                <li><a href="#">Consultoria</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-
-            <div class="enterprise">
-                <img src="img/logo-footer.png" alt="Logo da empresa">
-
-                <p>Sharing Experiences</p>
-                <p>contato@gruppe.com</p>
-                <p>CopyRight 2017. Gruppe Viagens</p>
-            </div>
-
-            <div class="follow-us">
-                <p>Siga-nos nas redes sociais</p>
-
-                <img src="img/fb-icon.png" alt="Ícone do Facebook">
-                <img src="img/yt-icon.png" alt="Ícone do YouTube">
+            <div>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Como funciona</a></li>
+                    <li><a href="#">Roteiros</a></li>
+                    <li><a href="#">Consultoria</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                
+                <div class="enterprise">
+                    <img src="img/logo-footer.png" alt="Logo da empresa">
+                    
+                    <p>Sharing Experiences</p>
+                    <p>contato@gruppe.com</p>
+                    <p class="copyright">CopyRight 2017. Gruppe Viagens</p>
+                </div>
+                
+                <div class="follow-us">
+                    <p>Siga-nos nas redes sociais</p>
+                    
+                    <img class="fb" src="img/fb-icon.png" alt="Ícone do Facebook">
+                    <img class="yt" src="img/yt-icon.png" alt="Ícone do YouTube">
+                </div>
             </div>
         </footer>
     </body>
